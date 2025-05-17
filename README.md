@@ -3,6 +3,17 @@
 This repository contains concepts, examples, and exercises related to **Object-Oriented Programming (OOP)** in **C++**. It is designed for beginners and intermediate learners to understand how to structure C++ programs using OOP principles.
 
 ---
+## Credits
+
+This repository and all the example code were created with the guidance and support of **Sir IRFAN ULLAH**, who taught me C++ during my course.  
+
+I am thankful for his clear explanations and hands-on practice sessions which helped me understand important concepts like **operator overloading , polymorphism etc all oop concepts** .
+
+He is really hardworking and great teacher. May always be stay bless and his life always be fill with lot of success. Amee.
+
+Without his help, this learning journey wouldn’t have been so smooth and enjoyable.
+
+---
 
 ## What is OOP?
 
