@@ -13,7 +13,16 @@ In C++, **operator overloading** means giving special meaning to an operator (li
 Normally, these operators work with basic data types (like `int`, `float`, etc.), but C++ allows you to redefine them to work with your **own objects**.
 
 ---
+## This Repo Includes:
+Overloading of all basic operators:
 
+- Arithmetic: +, -, *, /
+
+- Comparison: ==, !=, <, >
+
+- Assignment: =
+
+- Stream: <<, >>
 ## 📦 Example in Real Life
 
 Let’s say you have a `Complex` class that stores real and imaginary parts of a number. If you want to **add two complex numbers using `+`**, you can overload the `+` operator so that it works naturally:
