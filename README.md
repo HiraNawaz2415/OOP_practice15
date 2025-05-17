@@ -9,7 +9,7 @@ This repository and all the example code were created with the guidance and supp
 
 I am thankful for his clear explanations and hands-on practice sessions which helped me understand important concepts like **operator overloading , polymorphism etc all oop concepts** .
 
-He is really hardworking and great teacher. May always be stay bless and his life always be fill with lot of success. Amee.
+**He is really hardworking and great teacher. **May always be stay bless and his life always be fill with lot of success. Ameen.
 
 Without his help, this learning journey wouldn’t have been so smooth and enjoyable.
 
