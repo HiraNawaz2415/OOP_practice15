@@ -30,7 +30,7 @@
 **1.Compile-time polymorphism (Static binding)**
 - Achieved using function overloading and operator overloading.
 - Decided during compilation.
-** 2.Run-time polymorphism (Dynamic binding)**
+**2.Run-time polymorphism (Dynamic binding)**
 - Achieved using inheritance and virtual functions.
 - Decided during program execution (runtime).
 ---
