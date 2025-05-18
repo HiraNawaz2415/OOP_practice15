@@ -157,6 +157,44 @@ But a teacher does not own the student, and student does not own the teacher.
      - Example: House and Room. If the House is destroyed, Rooms are destroyed too.
 ---
 
+## 💎 **What is the Diamond Problem?**
+The diamond problem happens when:
+   - A class inherits from two classes.
+   - Those two classes already inherited from the same base class.
 
+This creates a "diamond" shape and causes confusion in the program.
+
+      Animal
+     /      \
+  Mammal   Bird
+     \      /
+     FlyingMammal
+
+- Mammal and Bird both come from Animal.
+- Now FlyingMammal is made from both Mammal and Bird.
+
+-💥 Problem: Now FlyingMammal gets two copies of Animal!
+    - FlyingMammal obj;
+    - obj.walk();
+👉 The computer gets confused:
+"Should I use walk() from Mammal → Animal or from Bird → Animal?"
+
+**Imagine this situation:**
+ - You are making a program with classes like this:
+ - **Person **→ Base class
+ - **Student and Teacher** → Both inherit from Person
+ - **TeachingAssistant** → Inherits from both Student and Teacher
+- Now, TeachingAssistant is a child of both Student and Teacher.
+
+BUT...
+
+- Both Student and Teacher already inherited from Person.
+- So now TeachingAssistant gets two copies of Person. 😵
+- This causes a problem — it’s confusing to the computer:
+**“Which Person class should I use?”**
 
 ---
+## **Virtual Inheritance **
+- Makes sure all classes share one base class copy
+**Why use it?**
+- To avoid duplication of the base class and remove confusion when a class inherits from two parents that came from the same grandparent.
