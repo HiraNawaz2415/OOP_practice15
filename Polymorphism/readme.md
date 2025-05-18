@@ -27,10 +27,10 @@
 - You don’t have to write separate functions with different names for every type.
 ---
 ## Types of polymorphism in C++
-**1.Compile-time polymorphism (Static binding)**
+### **1.Compile-time polymorphism (Static binding)**
 - Achieved using function overloading and operator overloading.
 - Decided during compilation.<br>
-**2.Run-time polymorphism (Dynamic binding)**
+### **2.Run-time polymorphism (Dynamic binding)**
 - Achieved using inheritance and virtual functions.
 - Decided during program execution (runtime).
 ---
