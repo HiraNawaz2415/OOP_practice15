@@ -34,6 +34,55 @@
 - Achieved using inheritance and virtual functions.
 - Decided during program execution (runtime).
 ---
+## **Early Binding (Compile-time binding)**
+- The function to be called is decided during compilation (before the program runs).
+```cpp
+#include <iostream>
+using namespace std;
+
+class Animal {
+public:
+    void speak() {
+        cout << "Animal speaks" << endl;
+    }
+};
+
+int main() {
+    Animal a;
+    a.speak();
+    return 0;
+}
+```
+- speak() is known at compile time
+- It is fast
+- Used with normal functions
+---
+## **Late Binding (Run-time binding)**
+- The function to be called is decided during runtime (when the program is running).
+ ```cpp
+ class Animal {
+public:
+    virtual void speak() {
+        cout << "Animal speaks" << endl;
+    }
+};
+
+class Dog : public Animal {
+public:
+    void speak() override {
+        cout << "Dog barks" << endl;
+    }
+};
+
+int main() {
+    Animal* a = new Dog();
+    a->speak();  // 👉 Late binding — decided at runtime, calls Dog's speak()
+}
+```
+- virtual keyword enables late binding
+- It is flexible
+- Used with polymorphism
+---
 ## **What is a Virtual Function?**
 - A virtual function is a function in a base class that you want to allow derived classes to change (override).
 - It tells the program: "When you call this function on a base pointer, check the actual object type at runtime and use the correct version of the function."
@@ -43,6 +92,7 @@
 ## **What is a Pure Virtual Function?**
 - A pure virtual function is a virtual function without any implementation in the base class.
 - It looks like this: virtual void func() = 0;
+-  Also known **do nothing** or **dummy** functions.
 - It means the base class says “I don't know how to do this — derived classes must provide their own version.”
 **Why use pure virtual functions?**
 - To make sure derived classes implement this function.
