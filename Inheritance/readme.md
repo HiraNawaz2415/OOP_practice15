@@ -105,3 +105,17 @@ public:
 
 - override keyword in derived class (optional but recommended):
 👉 “I am overriding a function from the base class.”
+---
+## Constructors with inheritence
+- when a derived class (child) is created from a base class (parent), constructors of both classes are involved.
+**Rules:**
+- Base class constructor is called first automatically.
+
+- If the base class has a parameterized constructor, you must explicitly call it from the derived class using an initialization list.
+
+- Constructors are not inherited, but can be called.
+
+---
+
+
+
