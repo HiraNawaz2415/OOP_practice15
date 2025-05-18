@@ -47,3 +47,27 @@ When a class inherits from another class, it automatically has access to all the
 - Encourages modular design.
 
 ---
+## 🔐 **Access Specifiers**
+- Access specifiers control the visibility and accessibility of class members (variables and functions). They determine who can access these members from outside or inside the class.
+Types of Access Specifiers
+**1. public**
+- Members declared as public are accessible from anywhere — inside the class, outside the class, and in derived classes.
+- Use public for functions or variables you want everyone to access freely.
+
+**2. private**
+- Members declared as private are accessible only within the class itself.
+- Neither outside code nor derived classes can access private members directly.
+- Use private to hide sensitive data and protect it from unauthorized access.
+
+**3. protected**
+- Members declared as protected are accessible within the class itself and in derived classes.
+- They are not accessible from outside the class hierarchy.
+- Use protected when you want to allow derived classes to use or modify members but keep them hidden from general outside access.
+
+**Why Are Access Specifiers Important?**
+- They help protect data by controlling access.
+- They allow you to hide internal details (encapsulation).
+- They help maintain better program structure and security.
+- They prevent accidental modification or misuse of data.
+
+---
