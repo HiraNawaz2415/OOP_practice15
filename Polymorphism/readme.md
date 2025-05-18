@@ -29,7 +29,7 @@
 ## Types of polymorphism in C++
 **1.Compile-time polymorphism (Static binding)**
 - Achieved using function overloading and operator overloading.
-- Decided during compilation.
+- Decided during compilation.<br>
 **2.Run-time polymorphism (Dynamic binding)**
 - Achieved using inheritance and virtual functions.
 - Decided during program execution (runtime).
