@@ -133,5 +133,21 @@ So we say:
 
 Containership helps make your program clear, simple, and easy to fix or improve.
 ---
+## **What is Association in simple words?**
+Association means:
+- Two classes are connected or related but they don’t own each other.
 
+- It shows that objects from different classes can work together, but one class doesn’t contain the other.
 
+**for example:**
+- A Teacher and a Student are associated.
+- A teacher teaches many students.
+- A student can have many teachers.
+But a teacher does not own the student, and student does not own the teacher.
+
+**Key points:**
+- It’s a relationship between classes.
+- Both classes can exist independently.
+- It can be one-to-one, one-to-many, or many-to-many.
+
+---
