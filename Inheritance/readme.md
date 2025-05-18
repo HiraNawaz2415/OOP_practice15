@@ -130,8 +130,7 @@ So we say:
 - Car contains Engine
 - Human contains Heart
 - House contains Room
-
-Containership helps make your program clear, simple, and easy to fix or improve.
+-  Containership helps make your program clear, simple, and easy to fix or improve.
 ---
 ## **What is Association in simple words?**
 Association means:
@@ -149,5 +148,15 @@ But a teacher does not own the student, and student does not own the teacher.
 - It’s a relationship between classes.
 - Both classes can exist independently.
 - It can be one-to-one, one-to-many, or many-to-many.
+- ** Association (general)**
+   **├─ Aggregation (weak ownership)**
+  ** └─ Composition (strong ownership)**
+- **Aggregation:** One class uses another, but parts can live alone.
+   - Example: Library and Book. Books can exist outside the Library.
+- **Composition:** One class owns another, and parts die if owner dies.
+     - Example: House and Room. If the House is destroyed, Rooms are destroyed too.
+---
+
+
 
 ---
