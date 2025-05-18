@@ -71,3 +71,37 @@ Types of Access Specifiers
 - They prevent accidental modification or misuse of data.
 
 ---
+## **What is Function Overriding?**
+Function overriding means:
+
+- When a child class (derived class) writes its own version of a function that already exists in the parent class (base class).
+
+**Why do we override?**
+- Sometimes, the child class wants to do something differently than the parent class. So it overrides the function.
+**Rule:**
+- Function name, return type, and parameters should be the same in both classes.
+
+- The base class function should be marked as virtual.
+---
+### Syntax :
+
+```cpp
+class BaseClass {
+public:
+    virtual void functionName() {
+        // Code for base class
+    }
+};
+
+class DerivedClass : public BaseClass {
+public:
+    void functionName() override {
+        // Code for derived class (overrides base class function)
+    }
+};
+```
+- virtual keyword in base class tells the compiler:
+👉 “This function can be overridden.”
+
+- override keyword in derived class (optional but recommended):
+👉 “I am overriding a function from the base class.”
