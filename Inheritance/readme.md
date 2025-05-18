@@ -163,13 +163,12 @@ The diamond problem happens when:
    - Those two classes already inherited from the same base class.
 
 This creates a "diamond" shape and causes confusion in the program.
-
-      Animal
-     /      \
-  Mammal   Bird
-     \      /
-     FlyingMammal
-
+     Animal
+    /      \
+Mammal     Bird
+    \      /
+    FlyingMammal
+    
 - Mammal and Bird both come from Animal.
 - Now FlyingMammal is made from both Mammal and Bird.
 
@@ -196,5 +195,5 @@ BUT...
 ---
 ## **Virtual Inheritance **
 - Makes sure all classes share one base class copy
-**Why use it?**
+### **Why use it?**
 - To avoid duplication of the base class and remove confusion when a class inherits from two parents that came from the same grandparent.
