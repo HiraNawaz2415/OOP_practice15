@@ -116,6 +116,22 @@ public:
 - Constructors are not inherited, but can be called.
 
 ---
+## 🤔 **What is Containership?**
+Containership means:
+- One class has another class inside it.
 
+- This is also called a "has-a" relationship.
+
+**for example:**
+- A Car has an Engine
+- A Human has a Heart
+- A House has a Room
+So we say:
+- Car contains Engine
+- Human contains Heart
+- House contains Room
+
+Containership helps make your program clear, simple, and easy to fix or improve.
+---
 
 
