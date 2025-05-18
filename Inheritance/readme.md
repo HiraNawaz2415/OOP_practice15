@@ -40,3 +40,10 @@ When a class inherits from another class, it automatically has access to all the
 - Combination of two or more types of inheritance.
 
 ---
+## **Benefits of Using Inheritance**
+- Avoids duplication of code.
+- Creates a natural hierarchy among classes.
+- Eases maintenance and future updates.
+- Encourages modular design.
+
+---
