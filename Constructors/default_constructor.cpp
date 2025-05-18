@@ -4,7 +4,7 @@ using namespace std;
 
 class Student {
 public:
-    DefaultExample() {
+   Student() {
         cout << "Default constructor called!" << endl;
     }
 };
