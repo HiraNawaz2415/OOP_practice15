@@ -1,7 +1,7 @@
-#🗑️ **What is a Destructor?**
+#   🗑️ **What is a Destructor?**
 A destructor is a special member function in a class that is automatically called when an object of that class is destroyed (i.e., when it goes out of scope or is deleted).
 
-Its main job is to clean up before the object is removed from memory — for example, releasing resources like memory, files, or network connections that the object might have acquired during its lifetime.
+- Its main job is to clean up before the object is removed from memory — for example, releasing resources like memory, files, or network connections that the object might have acquired during its lifetime.
 ---
 ## 🔑 **Key Points About Destructors:**
 - A destructor has the same name as the class, but preceded by a tilde (~).
