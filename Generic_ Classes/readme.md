@@ -19,4 +19,14 @@ public:
 };
 ```
 
+---
+## **Generic Function**
+
+``` cppp
+template <typename T>
+T functionName(T a, T b) {
+    // function body
+}
+```
+---
 
